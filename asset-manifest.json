@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/BrewDogSearch/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/BrewDogSearch/static/js/main.c0ca0724.chunk.js",
+    "main.js.map": "/BrewDogSearch/static/js/main.c0ca0724.chunk.js.map",
+    "runtime-main.js": "/BrewDogSearch/static/js/runtime-main.892a82a6.js",
+    "runtime-main.js.map": "/BrewDogSearch/static/js/runtime-main.892a82a6.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/BrewDogSearch/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.21583b93.chunk.js": "/BrewDogSearch/static/js/2.21583b93.chunk.js",
+    "static/js/2.21583b93.chunk.js.map": "/BrewDogSearch/static/js/2.21583b93.chunk.js.map",
+    "index.html": "/BrewDogSearch/index.html",
+    "precache-manifest.90d2b26d8f0691f3c81b5cec035e1dec.js": "/BrewDogSearch/precache-manifest.90d2b26d8f0691f3c81b5cec035e1dec.js",
+    "service-worker.js": "/BrewDogSearch/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/BrewDogSearch/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/BrewDogSearch/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.21583b93.chunk.js.LICENSE.txt": "/BrewDogSearch/static/js/2.21583b93.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.892a82a6.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.21583b93.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.c0ca0724.chunk.js"
+  ]
+}
