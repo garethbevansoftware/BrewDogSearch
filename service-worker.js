@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BrewDogSearch/precache-manifest.90d2b26d8f0691f3c81b5cec035e1dec.js"
+  "/BrewDogSearch/precache-manifest.e7220662fff983bfeb9b1c188cb9e2a1.js"
 );
 
 self.addEventListener('message', (event) => {

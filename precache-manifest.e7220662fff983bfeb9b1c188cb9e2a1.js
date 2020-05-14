@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1304168a0458ddf066950329e2cebe4b",
+    "revision": "672193ae223aa3337fc6af99e3c62fd0",
     "url": "/BrewDogSearch/index.html"
   },
   {
-    "revision": "bb5c5cee268700b46ca9",
+    "revision": "e1b4212ac3c5c9de9d58",
     "url": "/BrewDogSearch/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "5be78ac74b36f7fb3594",
+    "revision": "13c6ff72a960b1838c92",
     "url": "/BrewDogSearch/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "bb5c5cee268700b46ca9",
-    "url": "/BrewDogSearch/static/js/2.21583b93.chunk.js"
+    "revision": "e1b4212ac3c5c9de9d58",
+    "url": "/BrewDogSearch/static/js/2.de11fd67.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/BrewDogSearch/static/js/2.21583b93.chunk.js.LICENSE.txt"
+    "url": "/BrewDogSearch/static/js/2.de11fd67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5be78ac74b36f7fb3594",
-    "url": "/BrewDogSearch/static/js/main.c0ca0724.chunk.js"
+    "revision": "13c6ff72a960b1838c92",
+    "url": "/BrewDogSearch/static/js/main.2e262301.chunk.js"
   },
   {
     "revision": "11de537270e112fb74aa",
