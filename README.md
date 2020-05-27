@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project can be found at https://garethbevansoftware.github.io/BrewDogSearch/.
 
-## Available Scripts
+## Current Progress
+User requirements
+* As a user I want the application to show me beers using three different views (tabs):
+    * beers that pair with pizza
+    * beers that pair with steak
+    * all available beers
+    * You should be able to scroll vertically in a category, paginate through the beers using swipe gestures: up->down,
+down->up
+> The tabs for the 3 different food types have been implemented, however currently the list isn't filtered when swapping between tabs.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* As a user I want to easily navigate around the app and:
+    * For each beer in a view see the name, a picture and the abv
+    * Transition between views/tabs using swipe gestures: le->right, right->le 
+> This has been implemented as is working correctly
+* As a user I want to select a beer and see the following information:
+    * picture
+    * name
+    * tagline
+    * abv
+    * Description (collapsed if too long)
+    * food_pairing (collapsed if too long)
+> A modal has been implemented to show the above information. All the information above is shown. There are a couple of style issues here and the description isn't collapsing if too long.
+* As a user I want to be able to add items to the cart:
+    1. The cart should maintain state for the entire session of the application.
+    2. The cart should be viewable by sliding the bottom drawer up
+    3. If there are multiple items in the cart, it should be possible to scroll through the items
+    4. !! The api provided does not have prices for the items so feel free to use abv values instead of prices
+> Redux has been implemented to store the Cart information app wide, and a drawer for the shopping cart has been implemented.Displayiung the shopping cart is still outstanding
+* As a user I want to be able to delete items from the cart:
+    1. These changes should be reflected in the cart view
+    2. The price calculation should be updated dynamically.
+> The code for adding and removing objects from the cart is in place, it just needs to be hooked up
+* As a user I want to sort the beers in each view/tab between:
+    * abv_ascending
+    * abv_descending,
+    * name_ascending,
+    * name_descending
+>This needs to be implemented
