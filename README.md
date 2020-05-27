@@ -27,7 +27,7 @@ down->up
     2. The cart should be viewable by sliding the bottom drawer up
     3. If there are multiple items in the cart, it should be possible to scroll through the items
     4. !! The api provided does not have prices for the items so feel free to use abv values instead of prices
-> Redux has been implemented to store the Cart information app wide, and a drawer for the shopping cart has been implemented.Displayiung the shopping cart is still outstanding
+> Redux has been implemented to store the Cart information app wide, and a drawer for the shopping cart has been implemented. Displaying the shopping cart is still outstanding.
 * As a user I want to be able to delete items from the cart:
     1. These changes should be reflected in the cart view
     2. The price calculation should be updated dynamically.
